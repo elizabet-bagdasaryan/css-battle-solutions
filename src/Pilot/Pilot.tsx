@@ -15,6 +15,7 @@ function Pilot() {
 
   return (
     <>
+    <p>Battle #1 - Pilot Battle</p>
     <img src={Simple}/>
     <img src={Carrom}/>
     <img src={Push}/>
