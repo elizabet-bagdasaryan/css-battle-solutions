@@ -8,7 +8,7 @@ import Cloud from "../assets/cloud.png"
 import Site from "../assets/site-point.png"
 
 
-function Pilot() {
+function Display() {
   return (
     <>
     <p>Battle #4 - Display</p>
@@ -24,4 +24,4 @@ function Pilot() {
   )
 }
 
-export default Pilot
+export default Display
