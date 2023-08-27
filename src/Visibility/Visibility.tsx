@@ -6,7 +6,7 @@ import Fidget from "../assets/fidget.png"
 import Matrix from "../assets/matrix.png"
 
 
-function Pilot() {
+function Visibility() {
 
   return (
     <>
@@ -21,4 +21,4 @@ function Pilot() {
   )
 }
 
-export default Pilot
+export default Visibility
