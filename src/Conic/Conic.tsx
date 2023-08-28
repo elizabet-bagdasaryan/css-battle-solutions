@@ -7,7 +7,7 @@ function Conic() {
 
   return (
     <>
-    <p>Battle #5 - Inline</p>
+    <p>Battle #6 - Conic</p>
     <img src={Equals}/>
     <img src={Bandaid}/>
     </>

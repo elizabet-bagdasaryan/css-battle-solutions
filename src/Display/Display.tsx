@@ -12,15 +12,15 @@ function Display() {
   return (
     <>
     <p>Battle #4 - Display</p>
-    <img src={Cups}/>
-    <img src={Lockup}/>
-    <img src={Smiley}/>
-    <img src={Blossom}/>
-    <img src={Switches}/>
-    <img src={Box}/>
-    <img src={Cloud}/>
     <img src={Site}/>
-    </>
+    <img src={Cloud}/>
+    <img src={Box}/>
+    <img src={Switches}/>
+    <img src={Blossom}/>
+    <img src={Smiley}/>
+    <img src={Lockup}/>
+    <img src={Cups}/>
+  </>
   )
 }
 
