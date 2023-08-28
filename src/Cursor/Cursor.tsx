@@ -1,8 +1,6 @@
 import Cube from "../assets/cube.png"
 import Ticket from "../assets/ticket.png"
 
-
-
 function Cursor() {
 
   return (
