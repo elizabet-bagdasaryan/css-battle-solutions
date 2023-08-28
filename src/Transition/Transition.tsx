@@ -2,7 +2,7 @@ import Baby from "../assets/baby.png"
 import Wrench from "../assets/wrench.png"
 import Ticket from "../assets/stripes.png"
 
-function Cursor() {
+function Transition() {
   return (
     <>
     <p>Battle #8 - Transition</p>
@@ -13,4 +13,4 @@ function Cursor() {
   )
 }
 
-export default Cursor
+export default Transition
