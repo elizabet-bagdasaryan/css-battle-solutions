@@ -3,7 +3,7 @@ import Bandaid from "../assets/bandaid.png";
 
 function Conic() {
 	return (
-		<div>
+		<div className="w">
 			<p>Battle #6 - Conic</p>
 			<img src={Equals} />
 			<img src={Bandaid} />

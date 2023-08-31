@@ -3,7 +3,7 @@ import Ticket from "../assets/ticket.png";
 
 function Cursor() {
 	return (
-		<div>
+		<div className="w">
 			<p>Battle #3 - Cursor</p>
 			<img src={Cube} />
 			<img src={Ticket} />

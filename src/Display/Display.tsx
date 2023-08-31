@@ -9,7 +9,7 @@ import Site from "../assets/site-point.png";
 
 function Display() {
 	return (
-		<div>
+		<div className="w">
 			<p>Battle #4 - Display</p>
 			<img src={Site} />
 			<img src={Cloud} />

@@ -3,7 +3,7 @@ import Horizon from "../assets/horizon.png";
 
 function Inline() {
 	return (
-		<div>
+		<div className="w">
 			<p>Battle #5 - Inline</p>
 			<img src={Suffocate} />
 			<img src={Horizon} />

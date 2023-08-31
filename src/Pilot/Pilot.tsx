@@ -13,9 +13,15 @@ import Wiggly from "../assets/wiggly-moustache.png";
 
 function Pilot() {
 	return (
-		<div>
+		<div className="w">
 			<p>Battle #1 - Pilot Battle</p>
-			<img src={Simple} />
+			<div className="image-container">
+				<img src={Simple} />
+				<div className="overlay ">
+					<h4>Click to see the solution</h4>
+				</div>
+			</div>
+
 			<img src={Carrom} />
 			<img src={Push} />
 			<img src={Ups} />

@@ -10,7 +10,7 @@ import Fox from "../assets/fox.png";
 
 function Backface() {
 	return (
-		<div>
+		<div className="w">
 			<p>Battle #7 - Backface</p>
 			<img src={Birdie} />
 			<img src={Christmas} />
