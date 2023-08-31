@@ -9,7 +9,7 @@ import Site from "../assets/site-point.png";
 
 function Display() {
 	return (
-		<>
+		<div>
 			<p>Battle #4 - Display</p>
 			<img src={Site} />
 			<img src={Cloud} />
@@ -19,7 +19,7 @@ function Display() {
 			<img src={Smiley} />
 			<img src={Lockup} />
 			<img src={Cups} />
-		</>
+		</div>
 	);
 }
 

@@ -7,7 +7,7 @@ import Matrix from "../assets/matrix.png";
 
 function Visibility() {
 	return (
-		<>
+		<div>
 			<p>Battle #2 - Visibility</p>
 			<img src={Totally} />
 			<img src={Webmaker} />
@@ -15,7 +15,7 @@ function Visibility() {
 			<img src={EyeTiger} />
 			<img src={Fidget} />
 			<img src={Matrix} />
-		</>
+		</div>
 	);
 }
 

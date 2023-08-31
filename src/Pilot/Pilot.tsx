@@ -13,7 +13,7 @@ import Wiggly from "../assets/wiggly-moustache.png";
 
 function Pilot() {
 	return (
-		<>
+		<div>
 			<p>Battle #1 - Pilot Battle</p>
 			<img src={Simple} />
 			<img src={Carrom} />
@@ -27,7 +27,7 @@ function Pilot() {
 			<img src={Cloaked} />
 			<img src={Eye} />
 			<img src={Wiggly} />
-		</>
+		</div>
 	);
 }
 

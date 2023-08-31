@@ -7,7 +7,7 @@ import BreakChain from "../assets/break-chain.png";
 
 function Block() {
 	return (
-		<>
+		<div>
 			<p>Battle #10 - Block</p>
 			<img src={Corona} />
 			<img src={WashHands} />
@@ -15,7 +15,7 @@ function Block() {
 			<img src={Sanitizer} />
 			<img src={WearMask} />
 			<img src={BreakChain} />
-		</>
+		</div>
 	);
 }
 
