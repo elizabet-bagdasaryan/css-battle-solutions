@@ -10,29 +10,46 @@ import Simple from "../assets/simp-square.png";
 import Tesseract from "../assets/tesseract.png";
 import Ups from "../assets/ups-downs.png";
 import Wiggly from "../assets/wiggly-moustache.png";
+import {
+	GlobalStyles,
+	Wrapper,
+	WrapperText,
+	WrapperImage,
+	WrapperHeader,
+	ImageContainer,
+	Overlay,
+} from "../styles.ts";
 
 function Pilot() {
 	return (
-		<div className="w">
-			<p>Battle #1 - Pilot Battle</p>
-			<div className="image-container">
-				<img src={Simple} />
-				<div className="overlay ">
-					<h4>Click to see the solution</h4>
-				</div>
-			</div>
+		<div>
+			<GlobalStyles>
+				<Wrapper>
+					<WrapperText>Battle #1 - Pilot Battle</WrapperText>
+					<div>
+						<ImageContainer>
+							<WrapperImage src={Simple} />
+							<div>
+								<Overlay>
+									<WrapperHeader> Click to see the solution</WrapperHeader>
+								</Overlay>
+							</div>
+						</ImageContainer>
+					</div>
 
-			<img src={Carrom} />
-			<img src={Push} />
-			<img src={Ups} />
-			<img src={Acid} />
-			<img src={Missing} />
-			<img src={Leafy} />
-			<img src={Fork} />
-			<img src={Tesseract} />
-			<img src={Cloaked} />
-			<img src={Eye} />
-			<img src={Wiggly} />
+					<img src={Carrom} />
+					<img src={Push} />
+					<img src={Ups} />
+					<img src={Acid} />
+					<img src={Missing} />
+					<img src={Leafy} />
+					<img src={Fork} />
+					<img src={Tesseract} />
+					<img src={Cloaked} />
+					<img src={Eye} />
+					<img src={Wiggly} />
+				</Wrapper>
+			</GlobalStyles>
 		</div>
 	);
 }
