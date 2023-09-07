@@ -36,8 +36,17 @@ function Pilot() {
 							</div>
 						</ImageContainer>
 					</div>
+					<div>
+						<ImageContainer>
+							<WrapperImage src={Carrom} />
+							<div>
+								<Overlay>
+									<WrapperHeader> Click to see the solution</WrapperHeader>
+								</Overlay>
+							</div>
+						</ImageContainer>
+					</div>
 
-					<img src={Carrom} />
 					<img src={Push} />
 					<img src={Ups} />
 					<img src={Acid} />
