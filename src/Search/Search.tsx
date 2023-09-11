@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./Search.css";
+import SearchIcon from "@mui/icons-material/Search";
+
 interface SearchBarProps {
 	onSearch: (query: string) => void;
 }
@@ -17,6 +19,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
 
 	return (
 		<div className="search">
+			<SearchIcon className="icon" />
 			<input
 				type="text"
 				placeholder="Search..."
