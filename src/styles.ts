@@ -55,3 +55,38 @@ export const Overlay = styled.div`
 	align-items: center;
 	justify-content: center;
 `;
+
+export const SearchContainer = styled.div`
+	display: flex;
+	justify-content: center;
+	padding: 0 4vw;
+`;
+
+export const SearchInput = styled.input`
+	width: 100%;
+	background-color: #181c24;
+	padding: 20px;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	font-size: 18px;
+	padding-left: 60px;
+`;
+
+export const SearchButton = styled.button`
+	width: 200px;
+	margin-left: 50px;
+	border-radius: 20px;
+	background-color: rgb(255, 225, 0);
+	border: none;
+	color: #181c24;
+	font-weight: 600;
+	font-size: 18px;
+`;
+
+export const Icon = styled.i`
+	color: white;
+	position: absolute;
+	left: 0;
+	margin: 20px 0 0 140px;
+`;
