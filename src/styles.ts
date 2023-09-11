@@ -37,7 +37,6 @@ export const WrapperHeader = styled.h4`
 export const ImageContainer = styled.div`
 	position: relative;
 	cursor: pointer;
-
 	&:hover .overlay {
 		opacity: 1;
 	}

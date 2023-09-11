@@ -30,7 +30,7 @@ function Pilot() {
 						<ImageContainer>
 							<WrapperImage src={Simple} />
 							<div>
-								<Overlay>
+								<Overlay className="overlay">
 									<WrapperHeader> Click to see the solution</WrapperHeader>
 								</Overlay>
 							</div>
@@ -40,7 +40,7 @@ function Pilot() {
 						<ImageContainer>
 							<WrapperImage src={Carrom} />
 							<div>
-								<Overlay>
+								<Overlay className="overlay">
 									<WrapperHeader> Click to see the solution</WrapperHeader>
 								</Overlay>
 							</div>
