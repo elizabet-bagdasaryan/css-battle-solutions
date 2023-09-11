@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./Search.css";
 import SearchIcon from "@mui/icons-material/Search";
 import { SearchContainer, SearchInput, SearchButton, Icon } from "../styles.ts";
 interface SearchBarProps {
