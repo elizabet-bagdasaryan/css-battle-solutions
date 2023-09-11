@@ -18,7 +18,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
 
 	return (
 		<SearchContainer>
-			<Icon>
+			<Icon onClick={handleSearch}>
 				<SearchIcon />
 			</Icon>
 			<SearchInput

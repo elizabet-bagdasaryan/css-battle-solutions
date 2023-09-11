@@ -82,6 +82,7 @@ export const SearchButton = styled.button`
 	color: #181c24;
 	font-weight: 600;
 	font-size: 18px;
+	cursor: pointer;
 `;
 
 export const Icon = styled.i`
@@ -89,4 +90,5 @@ export const Icon = styled.i`
 	position: absolute;
 	left: 0;
 	margin: 20px 0 0 140px;
+	cursor: pointer;
 `;
